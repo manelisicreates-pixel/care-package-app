@@ -1,0 +1,48 @@
+:root {
+  --bg: #f7f6f2;
+  --bg-soft: #fbfaf7;
+  --panel: #ffffff;
+  --panel-alt: #f2f0eb;
+  --border: #ddd8cf;
+  --border-strong: #c8c1b5;
+  --text: #171717;
+  --text-soft: #4e4a43;
+  --text-muted: #7a746b;
+  --accent: #111111;
+  --accent-soft: #efebe4;
+  --success-bg: #eef5ef;
+  --success-border: #c9d8cb;
+  --success-text: #2f5133;
+  --error-bg: #f7eeee;
+  --error-border: #decaca;
+  --error-text: #7a2f35;
+  --shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  --radius-sm: 0px;
+  --radius-md: 2px;
+  --radius-lg: 4px;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
