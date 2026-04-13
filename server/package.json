@@ -1,9 +1,32 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "description": "Care Package backend server",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
+  },
+  "keywords": [
+    "care-package",
+    "express",
+    "mongodb",
+    "payfast"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
